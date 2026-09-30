@@ -1,0 +1,213 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+header img {
+    padding-top: 50px;
+    margin: 0 auto;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    width: 500px;
+    margin: 30px auto;
+}
+
+nav li {
+    list-style-type: none;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+
+nav a:hover {
+    color: teal;
+}
+
+/* Main */
+
+.mainheader {
+    position: relative;
+}
+
+.mainimg {
+    width: 100%;
+    display: block;
+}
+
+
+.mainheader h1 {
+    background-color: white;
+    color: black;
+    display: inline-block;
+    font-size: 20px;
+    font-family: "poller one", sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
+    margin: 0 0 18px;
+    padding: 23px 27px 20px;
+}
+
+.mainheader div p {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+    margin: 7px 0;
+    padding: 12px 27px;
+}
+
+.mainheader div {
+    padding: 0 0 0 470px;
+    margin-left: -480px;
+    margin-top: -171px;
+    position: absolute;
+    top: 50%;
+    text-align: left;
+    width: 490px;
+    left: 50%;
+}
+
+.mainheader div a {
+    background-color: #0ba39c;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    margin: 15px 0 0;
+    padding: 26px 29px 22px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+.maingrid {
+    padding-top: 25px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    gap: 30px;
+    width: 810px;
+    margin: 0 auto;
+}
+
+.maingrid img {
+    border: 2px solid black;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.maingrid img:hover {
+    opacity: 1;
+    transition-duration: 0.3s;
+}
+
+.maingrid p {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.about {
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.about img {
+    width: 800px;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+
+.about p {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.about h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 20px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-family: "poller one", sans-serif;
+}
+
+.about h2 {
+    padding-top: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.lastp {
+    margin: 20px;
+}
+
+.g-grid {
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    width: 750px;
+    margin: 0 auto;
+    grid-gap: 20px;
+    margin-bottom: 60px;
+}
+
+.g-grid img {
+    border: 2px solid black;
+    opacity: 0.7;
+    transition-duration: 0.3s;
+    aspect-ratio: 250px;
+}
+
+.g-grid img:hover {
+    opacity: 1;
+    transition-duration: 0.3s;
+}
+
+/* Footer */
+
+footer {
+    background-color: #000;
+    display: grid;
+    grid-template-columns: auto auto;
+    color: white;
+    padding: 30px;
+    gap: 100px;
+}
+
+footer p {
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    font-size: 13px;
+}
+
+.media {
+    display: grid;
+    grid-template-columns: 65px 65px 65px 65px;
+    width: 260px;
+    margin-left: auto;
+    padding-right: 100px;
+    gap: 0;
+}
